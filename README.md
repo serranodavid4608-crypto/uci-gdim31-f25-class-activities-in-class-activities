@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+The carmen doesn't move with the cat due to no longer connect to the parent object the cat 
+https://serranodavid4608-crypto.itch.io/activities 
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
