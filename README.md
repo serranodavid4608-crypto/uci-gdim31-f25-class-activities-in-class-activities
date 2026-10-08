@@ -5,7 +5,7 @@ The carmen doesn't move with the cat due to no longer connect to the parent obje
 https://serranodavid4608-crypto.itch.io/activities 
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+The r, g, and b value are float due to there value are not whole numbers set value to colors. The bounces is a int by being the number of bounce of the ball that have to be whole numbers. I sure that it missing f next to the 0.1 it can't covert double to float.
 
 ## Open-Source Assets
 ### W1
