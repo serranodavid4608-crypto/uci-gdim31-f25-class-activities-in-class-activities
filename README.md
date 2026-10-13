@@ -12,7 +12,7 @@ table number 11
 1. parameters is bool for is if current friendship level meet requirement cause true or false and float for current player friendship level and the return type is sting gave the text of character interactions if true.
 2. parameter is a float for room’s lights brighter or darker based on the player’s current sanity level and the return is void due to only change the light that doesn't need output.
 3. float for time that they pressed a key and bool if it hit accurately cause true and false statement and the return type is bool if it true or false with the beat hit.
-   2. class is space ship manufacturing line and components are the ship frame and the member variables are traits of the ship and the methods are different weapons.   
+2. class is space ship manufacturing line and components are the ship frame and the member variables are traits of the ship and the methods are different weapons.   
 
 ## Open-Source Assets
 ### W1
