@@ -15,6 +15,12 @@ table number 11
 2. class is space ship manufacturing line and components are the ship frame and the member variables are traits of the ship and the methods are different weapons.
 3. They get extremely bright too many bounce by the fact the code muilpite the brightest of the color by each other.
 
+### W4
+Table number 11
+1. I put the rigid body to cat and ball so that they can touch each other for the game work and ontrigger on the goal box to detect if the ball went inside the goal my reason is that rigid body needed if game object need physical like cat and ball while goal box only need to still and reason for trigger is that cat and ball don't gave a trigger while goal does.
+2. I have to fix the position of the cat collider it look like on the cat but really on the side. 
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
