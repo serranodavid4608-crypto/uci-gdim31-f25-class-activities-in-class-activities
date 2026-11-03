@@ -4451,6 +4451,7 @@ GameObject:
   - component: {fileID: 6397291155275392798}
   - component: {fileID: 6397291155275392800}
   - component: {fileID: 6397291155275392801}
+  - component: {fileID: 6397291155275392802}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -4518,10 +4519,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.21390635
-  m_Height: 0.771276
+  m_Radius: 0.14381292
+  m_Height: 0.8346615
   m_Direction: 2
-  m_Center: {x: -0.374022, y: 0.2049796, z: -0.2824998}
+  m_Center: {x: 0, y: 0.13493836, z: -0.08266926}
 --- !u!54 &6397291155275392801
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4549,6 +4550,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &6397291155275392802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6397291155275392791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
+  _rigidBody: {fileID: 6397291155275392801}
+  _bounceForce: 6
 --- !u!1 &6499904795538962815
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,6 +4832,7 @@ GameObject:
   - component: {fileID: 8101201615804560248}
   - component: {fileID: 8101201615804560250}
   - component: {fileID: 8101201615804560249}
+  - component: {fileID: 8101201615804560251}
   m_Layer: 0
   m_Name: SoccerBall
   m_TagString: Ball
@@ -4952,6 +4968,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.07068241
   m_Center: {x: -0.000056624413, y: 0.00011789426, z: 0.00046431273}
+--- !u!114 &8101201615804560251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7741058300408910497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d99774276e3f43b192a53df5fde03de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BounceOffWall
+  _rigidBody: {fileID: 8101201615804560249}
+  _bounceForce: 6
 --- !u!4 &8115783459852817865
 Transform:
   m_ObjectHideFlags: 0
