@@ -28,43 +28,43 @@ part 1
 
 ## W7
 Unity engine
-Scene
-They are the playground of the game engine where your level, world reside that content the gameobject.
-GameObject
-They are items in the scene place that content the component that are visual visualize.
-Component
-They are scripts that give the code different GameObject properties. 
-IsTrigger
-Checks for collision without the objects actually colliding into each other
-A good source for this is the W4 class slides
+- Scene
+--They are the playground of the game engine where your level, world reside that content the gameobject.
+-GameObject
+--They are items in the scene place that content the component that are visual visualize.
+-Component
+--They are scripts that give the code different GameObject properties. 
+-IsTrigger
+--Checks for collision without the objects actually colliding into each other
+--A good source for this is the W4 class slides
 Unity coding
-Classes
-The main coding area for each component
-Serialize
-This reveals the component into the unity inspector to be changed in unity
-Update
-This method is called every frame in the scene
-Start
-This method is called at the beginning when the scene is run.
-C#
-The base coding language that unity uses
+-Classes
+--The main coding area for each component
+-Serialize
+--This reveals the component into the unity inspector to be changed in unity
+-Update
+--This method is called every frame in the scene
+-Start
+--This method is called at the beginning when the scene is run.
+-C#
+--The base coding language that unity uses
 
 
 
 
-Good Source of information is Unity Documentation for methods that unity has inbuilt
-General C# coding
-Variable
-Can hold different info of different types like integers and
-Method
-Class resources: 
-Unity docs, e.g. https://docs.unity.com/en-us/engine/6000.0/script-reference/unityengine/vector3
-Class slides,
-Youtube coding videos provided in the unity scripts
+--Good Source of information is Unity Documentation for methods that unity has inbuilt
+--General C# coding
+--Variable
+--Can hold different info of different types like integers and
+--Method
+--Class resources: 
+--Unity docs, e.g. https://docs.unity.com/en-us/engine/6000.0/script-reference/unityengine/vector3
+--Class slides,
+--Youtube coding videos provided in the unity scripts
 
 
-Math
-	Operations:
+-Math
+	-Operations:
 +, -, *, /
 %, ^, ()
 <, >, ==, <=, >=, !=
