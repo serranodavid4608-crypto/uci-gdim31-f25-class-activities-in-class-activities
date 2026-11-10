@@ -27,6 +27,7 @@ part 1
 3. The method should follow the game object that was given and be turnable in the inspector.
 
 ## W7
+-with Jason Jung, Haoyang Zhou, Mark Jimenez, and Ruiqi Weng.
 Unity engine
 - Scene
 --They are the playground of the game engine where your level, world reside that content the gameobject.
