@@ -30,23 +30,23 @@ part 1
 Unity engine
 - Scene
 --They are the playground of the game engine where your level, world reside that content the gameobject.
--GameObject
+- GameObject
 --They are items in the scene place that content the component that are visual visualize.
--Component
+- Component
 --They are scripts that give the code different GameObject properties. 
--IsTrigger
+- IsTrigger
 --Checks for collision without the objects actually colliding into each other
 --A good source for this is the W4 class slides
 Unity coding
--Classes
+- Classes
 --The main coding area for each component
--Serialize
+- Serialize
 --This reveals the component into the unity inspector to be changed in unity
--Update
+- Update
 --This method is called every frame in the scene
--Start
+- Start
 --This method is called at the beginning when the scene is run.
--C#
+- C#
 --The base coding language that unity uses
 
 
@@ -63,7 +63,7 @@ Unity coding
 --Youtube coding videos provided in the unity scripts
 
 
--Math
+- Math
 	-Operations:
 +, -, *, /
 %, ^, ()
