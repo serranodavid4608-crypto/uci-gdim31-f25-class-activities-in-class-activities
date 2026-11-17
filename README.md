@@ -20,13 +20,13 @@ Table number 11
 1. I put the rigid body to cat and ball so that they can touch each other for the game work and ontrigger on the goal box to detect if the ball went inside the goal my reason is that rigid body needed if game object need physical like cat and ball while goal box only need to still and reason for trigger is that cat and ball don't gave a trigger while goal does.
 2. I have to fix the position of the cat collider it look like on the cat but really on the side.
 
-## W6
+### W6
 part 1
 1. It need a [SerializeField] private transform Target and for NavMeshAgent is agent = GetComponent<NavMeshAgent>
 2. It need a update method and start method.
 3. The method should follow the game object that was given and be turnable in the inspector.
 
-## W7
+### W7
 - with Jason Jung, Haoyang Zhou, Mark Jimenez, and Ruiqi Weng.
 - Unity engine
 - Scene
@@ -69,7 +69,7 @@ Unity coding
 +, -, *, /
 %, ^, ()
 <, >, ==, <=, >=, !=
-	Math Methods:(math • Unity.Mathematics • 6000.6 • Unity Editor )
+	Math Methods:(math • Unity.Mathematics • 6000.6 • Unity Editor 
 		abs, sqrt, pow, min, max, sin, cos, tan, 
 	Math types:(math • Unity.Mathematics • 6000.6 • Unity Editor )
 Int, Float
@@ -85,7 +85,8 @@ Itch.io
 It is a website where you can upload your own games for other people to play
 C# Visualization platform PYTHON TUTOR https://pythontutor.com/visualize.html#mode=edit
 
-
+### W7
+1. what was wrong with step 2 is that Vector3.forward always points along the world's global Z-axis. This will cause transform.position make the Muskrat slide sideways or diagonally whenever it rotates.
 
 
 ## Open-Source Assets
