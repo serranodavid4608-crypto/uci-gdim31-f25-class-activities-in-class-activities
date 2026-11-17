@@ -20,12 +20,73 @@ Table number 11
 1. I put the rigid body to cat and ball so that they can touch each other for the game work and ontrigger on the goal box to detect if the ball went inside the goal my reason is that rigid body needed if game object need physical like cat and ball while goal box only need to still and reason for trigger is that cat and ball don't gave a trigger while goal does.
 2. I have to fix the position of the cat collider it look like on the cat but really on the side.
 
-## W6
+### W6
 part 1
 1. It need a [SerializeField] private transform Target and for NavMeshAgent is agent = GetComponent<NavMeshAgent>
 2. It need a update method and start method.
 3. The method should follow the game object that was given and be turnable in the inspector.
 
+### W7
+- with Jason Jung, Haoyang Zhou, Mark Jimenez, and Ruiqi Weng.
+- Unity engine
+- Scene
+--They are the playground of the game engine where your level, world reside that content the gameobject.
+- GameObject
+--They are items in the scene place that content the component that are visual visualize.
+- Component
+--They are scripts that give the code different GameObject properties. 
+- IsTrigger
+--Checks for collision without the objects actually colliding into each other
+--A good source for this is the W4 class slides
+Unity coding
+- Classes
+--The main coding area for each component
+- Serialize
+--This reveals the component into the unity inspector to be changed in unity
+- Update
+--This method is called every frame in the scene
+- Start
+--This method is called at the beginning when the scene is run.
+- C#
+--The base coding language that unity uses
+
+
+
+
+--Good Source of information is Unity Documentation for methods that unity has inbuilt
+--General C# coding
+--Variable
+--Can hold different info of different types like integers and
+--Method
+--Class resources: 
+--Unity docs, e.g. https://docs.unity.com/en-us/engine/6000.0/script-reference/unityengine/vector3
+--Class slides,
+--Youtube coding videos provided in the unity scripts
+
+
+- Math
+	-Operations:
++, -, *, /
+%, ^, ()
+<, >, ==, <=, >=, !=
+	Math Methods:(math • Unity.Mathematics • 6000.6 • Unity Editor 
+		abs, sqrt, pow, min, max, sin, cos, tan, 
+	Math types:(math • Unity.Mathematics • 6000.6 • Unity Editor )
+Int, Float
+		Boolean 
+			True, False, None
+		Vector2d & Vector3d
+		Random
+	
+Other tools
+Github
+It is a websites that can put your coding project for people to see, copy, or change that store the project.
+Itch.io
+It is a website where you can upload your own games for other people to play
+C# Visualization platform PYTHON TUTOR https://pythontutor.com/visualize.html#mode=edit
+
+### W8
+1. what was wrong with step 2 is that Vector3.forward always points along the world's global Z-axis. This will cause transform.position make the Muskrat slide sideways or diagonally whenever it rotates.
 
 
 ## Open-Source Assets
