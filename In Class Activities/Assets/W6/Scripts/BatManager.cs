@@ -67,14 +67,14 @@ public class BatManager : MonoBehaviour
         // You will need to check the Vector3 documentation to find a method
         //      to help you with that distance check :)
         // https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Vector3.html
-        for (int i = 0; i < _bats.Length; i++)
-        {
-            BatW6 bat= _bats[i];
-            if (Vector3.Distance(_bat.transform.position, _playerTransform.position) <= _interactDistance)
-            {
-                _bat[i].EnableChase;
-            }
-        }
+        // for (int i = 0; i < _bats.Length; i++)
+        // {
+        //     BatW6 bat= _bats[i];
+        //     if (Vector3.Distance(_bat.transform.position, _playerTransform.position) <= _interactDistance)
+        //     {
+        //         _bat[i].EnableChase;
+        //     }
+        // }
 
         //
         // STEP 4
