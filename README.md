@@ -88,6 +88,8 @@ C# Visualization platform PYTHON TUTOR https://pythontutor.com/visualize.html#mo
 ### W8
 1. what was wrong with step 2 is that Vector3.forward always points along the world's global Z-axis. This will cause transform.position make the Muskrat slide sideways or diagonally whenever it rotates.
 
+### W9
+1. 2D final diagram: https://docs.google.com/drawings/d/1El0oUm7EVrkJbXhx9U0u8JOMG70kHzwyL48DrelrC-g/edit
 
 ## Open-Source Assets
 ### W1
