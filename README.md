@@ -90,6 +90,7 @@ C# Visualization platform PYTHON TUTOR https://pythontutor.com/visualize.html#mo
 
 ### W9
 1. 2D final diagram: https://docs.google.com/drawings/d/1El0oUm7EVrkJbXhx9U0u8JOMG70kHzwyL48DrelrC-g/edit
+2. update the game level.
 
 ## Open-Source Assets
 ### W1
